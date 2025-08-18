@@ -1,8 +1,6 @@
 {
   "include": [
-    "client/src/**/*",
-    "shared/**/*",
-    "server/**/*"
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",
@@ -13,7 +11,6 @@
   "compilerOptions": {
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/typescript/tsbuildinfo",
-    "noEmit": true,
     "module": "ESNext",
     "strict": true,
     "lib": [
@@ -21,7 +18,7 @@
       "dom",
       "dom.iterable"
     ],
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
@@ -33,11 +30,10 @@
     ],
     "paths": {
       "@/*": [
-        "./client/src/*"
-      ],
-      "@shared/*": [
-        "./shared/*"
+        "./src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "isolatedModules": true
   }
 }
