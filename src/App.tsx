@@ -1,4 +1,5 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, Router as WouterRouter } from "wouter";
+import { useHashLocation } from "wouter/use-hash-location";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Portfolio from "@/pages/portfolio";
@@ -16,10 +17,12 @@ function Router() {
 function App() {
   return (
     <TooltipProvider>
-      <div className="dark">
-        <Toaster />
-        <Router />
-      </div>
+      <WouterRouter hook={useHashLocation}>
+        <div className="dark">
+          <Toaster />
+          <Router />
+        </div>
+      </WouterRouter>
     </TooltipProvider>
   );
 }
