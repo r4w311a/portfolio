@@ -22,10 +22,11 @@ export default function Hero() {
             <span className="glitch" data-text="Hussein Malkawi">Hussein Malkawi</span> <span className="text-accent">//</span> <span className="typing-animation">Software Engineer</span>
           </h1>
           <p className="text-lg md:text-xl text-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
-            Software engineer with a product mindset. I bridge the gap between business requirements and technical solutions, 
-            leading features from conception to deployment. Passionate about building scalable systems with Ruby on Rails, 
-            React, and React Native.
+            I’m a builder at heart. My path into software started with curiosity—taking things apart, breaking them, then figuring out how they work.
+            Today, that same curiosity drives me to design and ship products that are useful, reliable, and a little bit elegant.
+            Not chasing titles, just chasing better solutions.
           </p>
+
         </motion.div>
 
         <motion.div
@@ -73,30 +74,27 @@ export default function Hero() {
             <span className="text-accent">'Hussein Malkawi'</span>
             <span className="text-primary">,</span>
             <br />
-            &nbsp;&nbsp;<span className="text-accent">role:</span>{" "}
-            <span className="text-accent">'Software Engineer'</span>
-            <span className="text-primary">,</span>
-            <br />
-            &nbsp;&nbsp;<span className="text-accent">focus:</span>{" "}
-            <span className="text-accent">'Product Engineering'</span>
-            <span className="text-primary">,</span>
-            <br />
-            &nbsp;&nbsp;<span className="text-accent">stack:</span>{" "}
+            &nbsp;&nbsp;<span className="text-accent">loves:</span>{" "}
             <span className="text-primary">[</span>
-            <span className="text-accent">'Ruby on Rails'</span>
+            <span className="text-accent">'clean code'</span>
             <span className="text-primary">,</span>{" "}
-            <span className="text-accent">'React'</span>
+            <span className="text-accent">'solving hard bugs'</span>
             <span className="text-primary">,</span>{" "}
-            <span className="text-accent">'React Native'</span>
+            <span className="text-accent">'shipping products'</span>
             <span className="text-primary">],</span>
             <br />
-            &nbsp;&nbsp;<span className="text-accent">experience:</span>{" "}
-            <span className="text-accent">'1 year professional'</span>
+            &nbsp;&nbsp;<span className="text-accent">curiosity:</span>{" "}
+            <span className="text-accent">Infinity</span>
+            <span className="text-primary">,</span>
+            <br />
+            &nbsp;&nbsp;<span className="text-accent">status:</span>{" "}
+            <span className="text-accent">'always learning'</span>
             <br />
             <span className="text-primary">{"}"}</span>
             <br />
             <span className="text-accent">{'>'}</span>
           </div>
+
         </motion.div>
       </div>
     </section>
